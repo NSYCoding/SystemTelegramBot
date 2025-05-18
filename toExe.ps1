@@ -1,1 +1,1 @@
-Invoke-PS2EXE -InputFile .\SystemTele.ps1 -OutputFile .\code\SystemTelegramBot.exe -IconFile .\code\RemoteControlBot_Logo.ico -Verbose
+Invoke-PS2EXE -InputFile .\SystemTele.ps1 -OutputFile .\SystemTelegramBot.exe -IconFile .\RemoteControlBot_Logo.ico -Verbose
