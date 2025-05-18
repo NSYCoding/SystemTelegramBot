@@ -93,34 +93,6 @@ This bot integrates with [Ollama](https://ollama.ai/) to provide AI assistance:
 This bot uses secure credential storage and only responds to the configured admin ID.
 Unauthorized access attempts are logged but not allowed to execute commands.
 
-## Support
-
-Commercial support is available for licensed users:
-
-- LinkedIn: https://www.linkedin.com/in/nour-y-38942933a/
-- Response time: Within 48 business hours
-- Support period: 3 months from purchase date
-
-Extended support plans available for business customers.
-
-## Refund Policy
-
-- 7-day money-back guarantee if the software doesn't work as described
-- To qualify, include your proof of purchase and system specifications
-
-## Purchase & Access
-
-This bot is available exclusively on Gumroad. After purchase:
-1. You'll receive immediate access to download the software package
-2. The package includes the executable, installer script, and documentation
-3. Access is granted to free updates within the same major version
-
-[🛒 Purchase on Gumroad](https://yourname.gumroad.com/l/systemtelegrambot)
-
-## License
-
-This software is provided under a commercial license. See LICENSE.txt for details.
-
 ## Author
 
 © 2025 (Nour)NSYCoding
