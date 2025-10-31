@@ -101,7 +101,7 @@ This bot integrates with [Ollama](https://ollama.ai/) to provide AI assistance:
 
 ## Requirements
 
-- Windows 11 (comes with PowerShell 5.1 preinstalled)
+- Windows 11 (comes with PowerShell 7 preinstalled)
 - Telegram account
 - Ollama (for AI features)
 
