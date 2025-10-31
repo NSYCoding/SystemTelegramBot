@@ -3,12 +3,15 @@
 A powerful Telegram bot that provides remote system control and AI assistant capabilities using Ollama models.
 
 ## Features
-- 🔒 **System Security**: Lock workstation remotely and set timed locks
-- 💻 **System Monitoring**: Check CPU load, disk space, running processes
-- 🎙️ **Audio Control**: Toggle system audio mute status remotely
-- 🤖 **AI Assistant**: Chat with multiple AI models via Ollama integration. Also capable of deleting the chat.
-- 📷 **Screenshot**: Take and receive screenshots of the system
-- ⚙️ **Process Management**: Get, Start and Stop processes remotely
+- 🚀 **Modular & Extensible**: Easily add new commands due to a modular architecture.
+- 🔒 **System Security**: Lock workstation remotely and set timed locks.
+- 💻 **System Monitoring**: Check CPU load, disk space, running processes, and list Windows services.
+- 📁 **File System Interaction**: List directory contents remotely.
+- ⚙️ **Process & Service Management**: Get, Start, and Stop processes; list Windows services.
+- 🎙️ **Audio Control**: Toggle system audio mute status remotely.
+- 🤖 **AI Assistant**: Chat with multiple AI models via Ollama integration, with full chat session management (create, load, list, delete, switch chats).
+- 📷 **Screenshot**: Take and receive screenshots of the system.
+- 🛠️ **Task Automation**: Run predefined PowerShell scripts remotely.
 
 ## Installation
 
@@ -56,27 +59,40 @@ This bot integrates with [Ollama](https://ollama.ai/) to provide AI assistance:
 ## Available Commands
 
 ### System Control
-- `/cpu` - CPU load and disk space
+- `/systemstatus` - CPU load and disk space
 - `/sleepmode` - Lock workstation immediately
 - `/sleepmodetime [minutes]` - Lock after specified time
 - `/sleeplock [password] [minutes]` - Lock periodically
 - `/unlocksystem [password]` - Stop periodic locking
 
-### Process Management
+### Process & Service Management
 - `/getprocesses` - List running processes
 - `/startprocess [name]` - Start a process
 - `/stopprocess [name]` - Stop a process
+- `/getservices` - List running Windows services
+
+### File System Interaction
+- `/ls [path]` - Lists files and folders in a directory
+
+### Task Automation
+- `/run-task [task_name]` - Executes a predefined PowerShell script from the 'tasks' directory
 
 ### Media and Input
 - `/mute` - Toggle audio mute
 - `/screenshot` - Take and send a screenshot
 
-### AI Assistant
+### AI Assistant (Ollama)
 - `/ollama [message]` - Chat with Ollama AI
 - `/models` - List available Ollama models
 - `/setmodel [model_name]` - Select an Ollama model
 - `/model [1-4]` - Quick model switch using presets
 - `/presets` - Show model presets
+- `/newchat [name]` - Creates and switches to a new chat session
+- `/listchats` - Lists all saved chat sessions
+- `/loadchat [name]` - Loads and switches to an existing chat session
+- `/deletechat [name]` - Deletes a specified chat session
+- `/currentchat` - Shows the name of the currently active chat session
+- `/clearlogs` - Deletes Ollama input/output logs
 
 ### General
 - `/start` - Welcome message

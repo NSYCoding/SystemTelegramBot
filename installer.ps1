@@ -2,8 +2,6 @@ Param (
     [string]$InstallPath = "$env:ProgramFiles\"
 )
 
-Install-Module CredentialManager -Force -Scope CurrentUser
-
 Write-Host "Installatie gestart..."
 
 if (!(Test-Path -Path $InstallPath)) {
