@@ -97,6 +97,7 @@ This bot integrates with [Ollama](https://ollama.ai/) to provide AI assistance:
 ### General
 - `/start` - Welcome message
 - `/help` - Show all commands
+- `/pokemon [pokemon_name]` - Gets information about a specified Pokemon.
 
 ## Requirements
 

@@ -5,7 +5,8 @@ Write-Host "Attempting to load utils.ps1..." -ForegroundColor Cyan
 Write-Host "Finished loading utils.ps1." -ForegroundColor Cyan
 
 if (Get-Command -Name ConvertTo-PlainText -ErrorAction SilentlyContinue) {
-    Write-Host "ConvertTo-PlainText function is loaded." -ForegroundColor Green
+    Write-Host "ConvertTo-
+    PlainText function is loaded." -ForegroundColor Green
 } else {
     Write-Host "ConvertTo-PlainText function IS NOT LOADED." -ForegroundColor Red
 }
